@@ -1,0 +1,17 @@
+nav h1{
+    font-size: 50px;
+    color: red;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+    width:13%;
+}
+header{
+    background-color: aqua;
+}
+h1{
+    color: gold;
+    
+}

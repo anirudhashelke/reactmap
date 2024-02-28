@@ -8,7 +8,7 @@ const head=["home","contact","about","product","login","sign","signout","search"
 
 createRoot(document.getElementById("root")).render(
     <>
-    {data.map( (ele,index)=>{
+    {data.map( (ele)=>{
        return  <FomComp  name={ele}  key={ele} /> 
     })}
     
