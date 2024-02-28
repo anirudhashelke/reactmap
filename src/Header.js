@@ -4,7 +4,7 @@ const Header = (props) => {
   return (
     <header>
         <nav>
-            {props.headers}
+            <h1>{props.headers}</h1>
         </nav>
     </header>
   )
